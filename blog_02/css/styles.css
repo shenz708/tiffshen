@@ -1,0 +1,221 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	font-family: 'Oswald', sans-serif;
+	background: white /*#eee*/;
+}
+
+
+
+#header{
+	height:200px;
+}
+
+.logo{
+	/*margin: 10px auto;*/
+	padding-left:110px;
+	padding-top:30px;
+
+	/*background:pink;*/
+	/*text-align: center; */
+
+}
+
+.topnav{
+	position: fixed;
+	float:right;
+	/*margin-right:170px;*/
+	text-align:center;
+	width: 100%;
+	height:80px;
+	width:80px;
+	background: black;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-height:60px;
+    padding: 25px;
+    text-decoration: none;
+	/*height:30px;
+	width:30px;
+	background: black;*/    
+	font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/*.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}*/
+
+#shen{
+	padding-bottom:25px;
+	border-bottom:0.8px solid black;
+	margin-left: 120px;
+	margin-right: 120px;
+	margin-bottom: 50px;
+}
+
+
+/*NIU*/
+
+#stripecolor{
+    width: 300px;
+    height: 20px;
+    background-color: blue;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    float:left;
+    z-index:1000px;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {background-color: #84A5B8;}
+    to {background-color: #B3DAF1;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {background-color: #84A5B8;}
+    to {background-color: #B3DAF1;}
+}
+
+/*NIU*/
+
+#dashline {
+    display: block;
+    margin: 8px;
+    margin-top: 8px;
+    margin-right: 40px;
+    margin-bottom: 8px;
+    margin-left: 100px;
+}
+
+
+#demo-2 {
+  
+    background-image: linear-gradient(
+      to right,
+      silver 50%,
+      transparent 0%
+    );
+    background-size: 8px 4px;
+    background-repeat: repeat-x;
+    background-position: 20% bottom;
+
+    animation-name: border-dance;
+    animation-duration: 50s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  @keyframes border-dance {
+    from {
+      background-position: 0% bottom;
+    }
+    to {
+      background-position: 100% bottom;
+    }
+  }
+
+
+
+
+
+
+
+
+/*.box {background:grey;}*/
+
+
+
+.row1 {
+	margin-left: 120px;
+	margin-right: 120px;
+	margin-bottom:40px;
+	display:grid;
+	grid-template-columns: 1fr 2fr;
+	grid-gap:2em;
+	grid-auto-rows: minmax(580px, auto); 
+}
+
+.center {
+	display: block;
+	margin-left: 20px;
+    margin-right: 5px;
+    /*width: 50%;*/
+}
+
+
+.row2 {
+	margin-left: 120px;
+	margin-right: 120px;
+	margin-bottom:40px;
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap:2em;
+	grid-auto-rows: minmax(400px, auto); 
+}
+
+.row3 {
+	margin-left: 120px;
+	margin-right: 120px;
+	margin-bottom:40px;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap:2em;
+	grid-auto-rows: minmax(200px, auto); 
+}
+
+
+.row4 {
+	background: #eee;
+	margin-left: 120px;
+	margin-right: 120px;
+	margin-bottom:40px;
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	/*grid-gap:2em;*/
+	grid-auto-rows: minmax(auto, auto); 
+}
+
+.box10 ul li{
+	list-style-type: none;
+
+}
+
+.box11 ul li{
+	list-style-type: none;
+
+}
+
+
+.box12 ul li{
+	list-style-type: none;
+
+}
+
+
+
+#footer{
+
+    border-top:2px solid black;
+	padding: 60px;
+	margin-left: 120px;
+	margin-right: 120px;
+	text-align: center;
+	font-size: 15px;
+
+}
