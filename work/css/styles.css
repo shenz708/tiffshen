@@ -1,0 +1,168 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	font-family: 'Oswald', sans-serif;
+	background: white /*#eee*/;
+}
+
+
+
+#header{
+	height:200px;
+}
+
+.logo{
+	/*margin: 10px auto;*/
+	padding-left:110px;
+	padding-top:30px;
+
+	/*background:pink;*/
+	/*text-align: center; */
+
+}
+
+.topnav{
+	position: fixed;
+	float:right;
+	/*margin-right:170px;*/
+	text-align:center;
+	width: 100%;
+	height:80px;
+	width:80px;
+	background: black;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-height:60px;
+    padding: 25px;
+    text-decoration: none;
+	/*height:30px;
+	width:30px;
+	background: black;*/    
+	font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/*.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}*/
+
+#shen{
+	padding-bottom:25px;
+	border-bottom:0.8px solid black;
+	margin-left: 120px;
+	margin-right: 120px;
+	margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+#content{
+	margin-left:7%;
+	margin-right:7%;
+}
+
+
+section, aside{
+
+    float: left;
+    width:48%; 
+    margin: 1%;
+}
+
+#demo1 {
+	float:left;
+	/*width:50%;*/
+	/*border: 0.5px solid grey; */  
+	/*background: pink;*/
+	width:100%;
+	height: 1100px;
+
+}
+
+.demo2 {
+	/*border-bottom: 2px solid black;*/
+	/*width:270px;
+	height: 500px;*/
+	float:left;
+	margin: 1%;
+	padding: 1%;
+	background: white;
+	display: inline-block;
+	border-bottom: 0.5px solid grey; 
+}
+
+/*#demo1: after{
+	display:block;
+	content="";
+	clear:both;
+}
+*/
+#demo3{
+	/*float:right;*/
+	width:100%;
+	height: 1500px;
+	/*border: 0.5px solid grey;*/
+	/*background: pink;*/
+	/*width: 40%;*/
+}
+
+.demo4{
+	/*border: 2px solid red;*/
+	/*border-bottom: 2px solid black;*/
+	
+	margin:2%;
+	
+	padding: 1%;
+	background:white;
+	border-bottom: 0.5px solid grey;
+
+}
+
+
+/*
+#demo3: after{
+	display:block;
+	content="";
+	clear:both;
+}
+*/
+
+/*#footer{
+	width:100%;
+	background: #f1f1f1;
+	height: 200px;
+
+}*/
+
+
+#footer{
+
+    /*border-top:2px solid black;*/
+	padding: 25px;
+	margin-left: 120px;
+	margin-right: 120px;
+	text-align: center;
+	font-size: 15px;
+
+}
+
+
+
+               

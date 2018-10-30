@@ -17,23 +17,44 @@
 <div id="header">
 	<div class="logo">
 		<a href="#"></a>
-		<img src="img/logo.png" width="250px";">
+		<img src="img/logo1.png" width="250px";">
 	</div>
 
-	<div class="topnav">
-		<a href="#" data-hover="Project">Menu</a>		
+<!-- navigation bar -->
+	<div class="hamburger-container" onclick="toggleHamMenu()">
+		<!-- <a href="#" data-hover="Project">Menu</a> -->		
+		<div id="top_bun" class="ham-layer"></div>
+		<div id="meat" class="ham-layer"></div>
+		<div id="bottom_bun" class="ham-layer"></div>
 	</div>
-
 </div>
 
+<!-- overlay -->
+<div id="overlay">
+	<nav>
+		<ul>
+			<li><a href="#">HELLO</a></li>
+			<li><a href="work/1.html">WORK</a></li>
+			<li><a href="#">ABOUT</a></li>
+			<li><a href="#">BLOG</a></li>
+			<li><a href="#">CONTACT</a></li>
 
-<div id="shen">
+		</ul>
+	</nav>
+</div>
+<!-- navigation bar -->
+
+
+
+
+<div id="title">
 	<h1>BLOG</h1>
 </div>
 
+<!-- <div><a href="blog_01/blog_01_final.html">this is a link</a></div> -->
 
-<div class="row1">
-	<div class="demo1">
+<div class="contentcontainer">
+	<div class="subcontainer">
 		<div class="demo2">
 			<img src="img/t1.png" width="280px">
 			<h2><a href="blog_01/blog_01_final.html">7 IN 7 - IDEA#1 </a></h2>
@@ -116,8 +137,8 @@
 	<p>Zihan Shen Copyright &copy; 2018</p>
 </div>
 
-
-
+<script src="js/scripts.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
 
 
 
