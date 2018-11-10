@@ -1,0 +1,51 @@
+body {
+    background-color: #ece369; 
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: cover;
+}
+
+#img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#keyword{
+    width: 60%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 12px 20px 12px 40px;
+}
+
+#submit{
+    text-align: center;
+    margin-top:20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;*/
+    border-radius: 6px;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
+h1{
+  text-decoration-color: white;
+  margin: 60px ;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+}
+
+.part2 {
+  margin: auto ;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  height: 300px;
+
+}
+
+
+

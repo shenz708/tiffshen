@@ -208,9 +208,9 @@ body{
 	margin-left: 120px;
 	margin-right: 120px;
 	margin-bottom:40px;
-	display:grid;
+/*	display:grid;
 	grid-template-columns: 1fr 1fr;
-	grid-gap:2em;
+	grid-gap:2em;*/
 	grid-auto-rows: minmax(580px, auto); 
 }
 
